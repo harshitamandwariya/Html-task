@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+}
+
+.topnav {
+	overflow: hidden;
+	margin-left: 20px;
+}
+
+.topnav a {
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a.active {
+	float: right;
+	color: blue;
+}
+
+.topnav input[type="text"] {
+	float: left;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	border: none;
+	font-size: 17px;
+	color: black;
+}
+
+.button {
+	float: right;
+	background-color: midnightblue;
+	border: none;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+.dropdown {
+	float: left;
+	background-color: midnightblue;
+	border: none;
+	color: white;
+	padding: 14px 16px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 8px;
+	cursor: pointer;
+}
+.sec1 {
+	background-color: midnightblue;
+	color: white;
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.sec2 {
+	margin-left: 250px;
+}
+
+nav {
+	float: right;
+	width: 40%;
+	 padding: 20px; 
+	 margin-right: 70px;
+	 text-decoration: none;
+}
+article {
+	float: left;
+	padding: 10px;
+	width: 40%;
+	margin-left: 70px
+}
+* {
+	box-sizing: border-box;
+}
